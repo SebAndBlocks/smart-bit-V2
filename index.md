@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+> Open this page at [https://turquoisetnt.github.io/smart-bit/](https://turquoisetnt.github.io/smart-bit/)
 
-You can use the [editor on GitHub](https://github.com/TurquoiseTNT/smart-bit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Use as Extension
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repository can be added as an **extension** in MakeCode.
 
-### Markdown
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **New Project**
+* click on **Extensions** under the gearwheel menu
+* search for **https://github.com/turquoisetnt/smart-bit** and import
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Edit this project ![Build status badge](https://github.com/turquoisetnt/smart-bit/workflows/MakeCode/badge.svg)
 
-```markdown
-Syntax highlighted code block
+To edit this repository in MakeCode.
 
-# Header 1
-## Header 2
-### Header 3
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* click on **Import** then click on **Import URL**
+* paste **https://github.com/turquoisetnt/smart-bit** and click import
 
-- Bulleted
-- List
+## Blocks preview
 
-1. Numbered
-2. List
+This image shows the blocks code from the last commit in master.
+This image may take a few minutes to refresh.
 
-**Bold** and _Italic_ and `Code` text
+![A rendered view of the blocks](https://github.com/turquoisetnt/smart-bit/raw/master/.github/makecode/blocks.png)
 
-[Link](url) and ![Image](src)
-```
+#### Metadata (used for search, rendering)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TurquoiseTNT/smart-bit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* for PXT/microbit
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
