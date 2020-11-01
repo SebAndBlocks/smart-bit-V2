@@ -3,7 +3,9 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "devices": "*"
+        "devices": "*",
+        "Smart Bit": "github:turquoisetnt/smart-bit#282157e75b7a676bb2acc2eee2b2ec785641e15a",
+        "bluetooth": "*"
     },
     "files": [
         "main.blocks",
