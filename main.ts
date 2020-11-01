@@ -45,6 +45,12 @@ input.onButtonPressed(Button.A, function () {
         # # . # #
         `)
     music.playMelody("B C5 A B G A F E ", 125)
+    music.playMelody("B C5 A B G A F E ", 125)
+    music.playMelody("B C5 A B G A F E ", 125)
+    music.playMelody("B C5 A B G A F E ", 125)
+    music.playMelody("B C5 A B G A F E ", 125)
+    music.playMelody("B C5 A B G A F E ", 125)
+    music.playMelody("B C5 A B G A F E ", 125)
     basic.showLeds(`
         . # # # #
         . # . . #
