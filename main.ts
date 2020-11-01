@@ -44,7 +44,6 @@ input.onButtonPressed(Button.A, function () {
         # # . # #
         # # . # #
         `)
-    music.setOnBoardSpeakerEnabled(true)
     music.playMelody("B C5 A B G A F E ", 125)
     music.playMelody("B C5 A B G A F E ", 125)
     music.playMelody("B C5 A B G A F E ", 125)
@@ -61,13 +60,4 @@ input.onButtonPressed(Button.A, function () {
         `)
     basic.clearScreen()
 })
-input.onSound(DetectedSound.Loud, function () {
-    basic.showLeds(`
-        # . # . #
-        # . # . #
-        # . # . #
-        # . . # .
-        # # . . .
-        `)
-    basic.clearScreen()
-})
+
